@@ -23,3 +23,7 @@ function prependKitten(name) {
   var nameArray = [name];
   return nameArray.concat(kittens);
 }
+
+function removeLastKitten() {
+  
+}
