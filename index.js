@@ -20,6 +20,6 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  nameArray = [name];
+  var nameArray = [name];
   return nameArray.concat(kittens);
 }
